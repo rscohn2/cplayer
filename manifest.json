@@ -1,0 +1,12 @@
+{
+  "name": "CrosswalkCanaryPlayer",
+  "package": "com.rocosoft.cplayer",
+  "manifest_version": 1,
+  "version": "1.1",
+  "versionCodeBase": "3",
+  "app": {
+    "launch":{
+      "local_path": "index.html"
+    }
+  }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+ <!-- content goes here-->
+
+ <head>
+  <link rel="stylesheet" type="text/css" href="media_button_bar/css/media_button_bar.css">
+  <link rel="stylesheet" type="text/css" href="app_framework/css/af.ui.min.css">
+  <link rel="stylesheet" type="text/css" href="app_framework/css/icons.min.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+  <title>Your New Application</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+  <style type="text/css">
+   /* Prevent copy paste for all elements except text fields */
+   		*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+   		input, textarea  { -webkit-user-select:text; }
+  </style>
+  <script src="cordova.js"></script>
+
+  <script type="application/javascript" src="app_framework/appframework.ui.min.js"></script>
+  <script src="js/main.js"></script>
+ </head>
+
+ <body id="afui">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- content goes here-->
+  <div class="uwrap" id="content">
+   <div class="upage panel" id="mainpage" data-header="af-header-0" data-footer="none">
+    <div class="upage-outer">
+     <header class="container-group inner-element uib_w_2" data-uib="app_framework/header" data-ver="0" id="af-header-0">
+      <h1>Crosswalk Player</h1>
+      <div class="widget-container wrapping-col single-centered"></div>
+      <div class="widget-container content-area horiz-area wrapping-col left"></div>
+      <div class="widget-container content-area horiz-area wrapping-col right"></div>
+     </header>
+     <div class="upage-content" id="mainsub">
+
+      <div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
+       <div class="col uib_col_1 col-0_12-12" data-uib="layout/col" data-ver="0">
+        <div class="widget-container content-area vertical-col">
+
+         <div class="table-thing with-label widget uib_w_1 d-margins" data-uib="app_framework/input" data-ver="0">
+          <label class="narrow-control label-inline" for="URLId">URL</label>
+
+          <input class="wide-control" placeholder="URL" type="text" id="URLId">
+         </div>
+         <a class="button widget uib_w_14 d-margins icon refresh" data-uib="app_framework/button" data-ver="0" id="refreshId"></a>
+         <div class="widget uib_w_3 d-margins subheading" data-uib="media/text" data-ver="0">
+          <div class="widget-container left-receptacle"></div>
+          <div class="widget-container right-receptacle"></div>
+          <div>
+           <p>Crosswalk</p>
+          </div>
+         </div>
+         <div class="grid grid-pad urow uib_row_9 row-height-9" data-uib="layout/row" data-ver="0">
+          <div class="col uib_col_3 col-1_6-12" data-uib="layout/col" data-ver="0">
+           <div class="widget-container content-area vertical-col">
+
+            <div class="widget uib_w_8 d-margins" data-uib="media/text" data-ver="0">
+             <div class="widget-container left-receptacle"></div>
+             <div class="widget-container right-receptacle"></div>
+             <div>
+              <p>Version</p>
+             </div>
+            </div><span class="uib_shim"></span>
+           </div>
+          </div>
+          <div class="col uib_col_2 col-1_6-12" data-uib="layout/col" data-ver="0">
+           <div class="widget-container content-area vertical-col">
+
+            <div class="widget uib_w_10 d-margins" data-uib="media/text" data-ver="0" id="crosswalkVersionId">
+             <div class="widget-container left-receptacle"></div>
+             <div class="widget-container right-receptacle"></div>
+             <div>
+              <p>not detected</p>
+             </div>
+            </div><span class="uib_shim"></span>
+           </div>
+          </div>
+          <span class="uib_shim"></span>
+         </div>
+         <div class="widget uib_w_4 d-margins subheading" data-uib="media/text" data-ver="0">
+          <div class="widget-container left-receptacle"></div>
+          <div class="widget-container right-receptacle"></div>
+          <div>
+           <p>Cordova</p>
+          </div>
+         </div>
+         <div class="grid grid-pad urow uib_row_10 row-height-10" data-uib="layout/row" data-ver="0">
+          <div class="col uib_col_5 col-1_6-12" data-uib="layout/col" data-ver="0">
+           <div class="widget-container content-area vertical-col">
+
+            <div class="widget uib_w_9 d-margins" data-uib="media/text" data-ver="0">
+             <div class="widget-container left-receptacle"></div>
+             <div class="widget-container right-receptacle"></div>
+             <div>
+              <p>Version</p>
+             </div>
+            </div><span class="uib_shim"></span>
+           </div>
+          </div>
+          <div class="col uib_col_4 col-1_6-12" data-uib="layout/col" data-ver="0">
+           <div class="widget-container content-area vertical-col">
+
+            <div class="widget uib_w_11 d-margins" data-uib="media/text" data-ver="0" id="cordovaVersionId">
+             <div class="widget-container left-receptacle"></div>
+             <div class="widget-container right-receptacle"></div>
+             <div>
+              <p>not detected</p>
+             </div>
+            </div><span class="uib_shim"></span>
+           </div>
+          </div>
+          <span class="uib_shim"></span>
+         </div>
+         <div class="widget uib_w_5 d-margins subheading" data-uib="media/text" data-ver="0">
+          <div class="widget-container left-receptacle"></div>
+          <div class="widget-container right-receptacle"></div>
+          <div>
+           <p>intelxdk</p>
+          </div>
+         </div>
+         <div class="grid grid-pad urow uib_row_11 row-height-11" data-uib="layout/row" data-ver="0">
+          <div class="col uib_col_7 col-1_6-12" data-uib="layout/col" data-ver="0">
+           <div class="widget-container content-area vertical-col">
+
+            <div class="widget uib_w_12 d-margins" data-uib="media/text" data-ver="0">
+             <div class="widget-container left-receptacle"></div>
+             <div class="widget-container right-receptacle"></div>
+             <div>
+              <p>Version</p>
+             </div>
+            </div><span class="uib_shim"></span>
+           </div>
+          </div>
+          <div class="col uib_col_6 col-1_6-12" data-uib="layout/col" data-ver="0">
+           <div class="widget-container content-area vertical-col">
+
+            <div class="widget uib_w_13 d-margins" data-uib="media/text" data-ver="0" id="intelxdkVersionId">
+             <div class="widget-container left-receptacle"></div>
+             <div class="widget-container right-receptacle"></div>
+             <div>
+              <p>not detected</p>
+             </div>
+            </div><span class="uib_shim"></span>
+           </div>
+          </div>
+          <span class="uib_shim"></span>
+         </div>
+         <div class="widget uib_w_6 d-margins subheading" data-uib="media/text" data-ver="0">
+          <div class="widget-container left-receptacle"></div>
+          <div class="widget-container right-receptacle"></div>
+          <div>
+           <p>User Agent</p>
+          </div>
+         </div>
+         <div class="widget uib_w_7 d-margins" data-uib="media/text" data-ver="0" id="userAgentId">
+          <div class="widget-container left-receptacle"></div>
+          <div class="widget-container right-receptacle"></div>
+          <div>
+           <p>not detected</p>
+          </div>
+         </div>
+
+
+
+
+
+         <span class="uib_shim"></span>
+        </div>
+       </div>
+       <span class="uib_shim"></span>
+      </div>
+
+
+
+
+     </div>
+     <!-- /upage-content -->
+
+    </div>
+    <!-- /upage-outer -->
+
+   </div>
+   <!-- /upage -->
+
+  </div>
+  <!-- /uwrap -->
+ </body>
+
+</html>
