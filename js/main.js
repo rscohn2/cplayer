@@ -16,10 +16,14 @@ function keydown(e){
 }
 
 function main() {
+    $('#originId').html(window.location.href);
+    
     var ua = navigator.userAgent;
     $('#userAgentId').html(ua);
+    // Hack to recognize crosswalk before UA fix
     if (navigator.presentation) {
         $('#crosswalkVersionId p').html('detected');
+        // Non-hack to recognize crosswalk
         var verMatch = ua.match(/Crosswalk\/([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/);
         if (verMatch)
             $('#crosswalkVersionId p').html(verMatch[1]);

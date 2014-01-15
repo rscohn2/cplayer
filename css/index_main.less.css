@@ -235,8 +235,8 @@ body:not(#afui) .upage-outer {
 }
 @media all {
   #afui .grid-pad {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -275,8 +275,8 @@ body:not(#afui) .upage-outer {
 }
 @media all {
   #afui .d-margins {
-    margin-top: 5px;
-    margin-bottom: 6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   #afui .wrapping-col > .d-margins {
     margin-left: 4px;
@@ -571,5 +571,20 @@ body:not(#afui) .upage-outer {
     -ms-flex: 0 0 auto !important;
     -o-flex: 0 0 auto !important;
     flex: 0 0 auto !important;
+  }
+}
+@media all and (min-width: 0px) {
+  #afui .row-height-12 > .col > .content-area {
+    min-height: 30px;
+  }
+}
+@media all {
+  #afui .item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #afui .wrapping-col > .item {
+    margin-left: 6px;
+    margin-right: 6px;
   }
 }
